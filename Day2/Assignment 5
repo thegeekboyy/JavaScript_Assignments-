@@ -1,0 +1,11 @@
+PROGRAM TO PRINT AN ARRAY IN REVERSE ORDER
+
+let arr = [1,2,3,4,5,6,7,8,9,0];
+let n= arr.length;
+console.log(arr);
+console.log("Array in reverse order");
+
+for(int i=0;i<n;i++)
+{
+	console.log(arr[n-i]);
+}
