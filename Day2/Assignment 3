@@ -1,0 +1,11 @@
+PROGRAM TO SEARCH FOR AN ELEMENT IN AN ARRAY OF STRINGS
+
+let arr = ["python","blockchain","javascript","cybersecurity","AWS"];
+
+for(int i=0;i<arr.length;i++)
+	{
+	  if(arr[i]=="javascript")
+		console.log("Found at position",i);
+	  else
+		console.log("Element not found");
+	}
