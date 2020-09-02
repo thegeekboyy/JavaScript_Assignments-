@@ -1,0 +1,7 @@
+PROGRAM TO SEARCH FOR A PARTICULAR CHARACTER IN STRING
+
+let str1 = "heya we are letsupgraders";
+console.log("The string is" + str1);
+let indx = str1.search("are");
+console.log("The word/character is found at position:");
+console.log(indx);
