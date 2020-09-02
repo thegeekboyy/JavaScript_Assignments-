@@ -1,0 +1,11 @@
+PROGRAM TO DISPLAY ELEMENTS CONTAINING 'a' IN AN ARRAY
+
+let arr=["apple","dog"."cat","fox","lamb","fish"];
+console.log(arr);
+
+for(int i=0;i<arr.length;i++)
+{
+   if(arr[i].includes('a'))
+	console.log(arr[i]);
+
+}
