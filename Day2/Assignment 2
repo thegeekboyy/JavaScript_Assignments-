@@ -1,0 +1,6 @@
+PROGRAM TO CONVERT MINUTES TO SECONDS
+
+let mins = 30;
+console.log("Minutes=:",${mins});
+let seconds = mins*60;
+console.log(seconds);
